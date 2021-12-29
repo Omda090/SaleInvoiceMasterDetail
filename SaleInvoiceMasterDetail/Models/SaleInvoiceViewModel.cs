@@ -8,6 +8,8 @@ namespace SaleInvoiceMasterDetail.Models
 {
     public class SaleInvoiceViewModel
     {
+        //ViewModel
+
         public int InvId { get; set; }
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
